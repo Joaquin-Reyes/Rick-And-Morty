@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&family=Roboto+Mono:wght@300&family=Roboto:wght@500&display=swap');
+
+
+#tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav {
+    padding: 0%;
+    margin: 0;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    margin-bottom: 2%;
+    color: white;
+    font-size: 25px;  
+    border-radius: 10px;
+}
+#todos{
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#mujeres{
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+#hombres{
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+}
+.card {
+    width: 340px;
+    background-color: white;
+    color: black;
+    border: solid 3px black;
+    margin: 1%;
+    filter: drop-shadow(1px 0px 6px rgb(12, 12, 12));
+    border-radius: 20px;
+    height: 79vh;
+}
+.card:hover img {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: .9s;
+    z-index: 1000;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    
+    
+}
+.card img{
+    width: 100%;
+    height: 55%;
+    border-radius: 5px;
+}
+main section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+body{
+    background-color: white;
+}
+footer {
+    color: white;
+    width: 100%;
+    height: 15vh;
+    background-color: black;
+}
+footer div{
+    margin-left: 5%;
+    margin-top: 1%;
+}
+footer section{
+    margin-left: 10%;
+    display: flex;
+}
+button{
+    cursor: pointer;
+    font-size: 20px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 5px;
+}
+button:hover { 
+    background-color: white; 
+}
+#nombre{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    height: 6%;
+    font-size: 23px;
+    display: flex;
+   
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+/*Extra small CELULAR*/
+@media (max-width:576px) {
+    body {
+        background-color: white;
+    }
+   
+}
+/*Small CELULAR*/
+@media (min-width:576px) {
+    body {
+        background-color: white;
+    }
+}
+
+    /*Medium TABLET*/
+@media (min-width:768px) {
+    body {
+        background-color: white;
+    }
+}
+
+    /*Large MONITOR*/
+@media (min-width:992px) {
+    body {
+        background-color: white;
+    }
+}
+
+/*Extra Large MONITOR*/
+@media (min-width:1200px) {
+    body {
+        background-color: white;
+    }
+}
