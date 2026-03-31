@@ -21,7 +21,7 @@ Aplicación web responsive que consume la API de Rick and Morty para visualizar 
 - Experiencia de usuario optimizada
 
 ## 🌐 Demo
-file:///C:/Users/Joaco/OneDrive/Escritorio/Programacion-Desarrollo%20Web/Clase%2017-Proyecto%20Final/index.html
+https://rick-and-morty-final.netlify.app/
 
 ## 📌 Autor
 Joaquin Reyes
